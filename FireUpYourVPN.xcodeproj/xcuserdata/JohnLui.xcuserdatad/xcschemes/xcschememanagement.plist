@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>ProxyProvider.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>Today.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -17,6 +22,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>C88835EE1C46C7CE0081A48F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>C8F43B6A1C04B08A006C62BB</key>
 		<dict>
 			<key>primary</key>

@@ -11,6 +11,9 @@
 		C87AC34D1C08BBAC003842CF /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87AC34B1C08BB45003842CF /* Common.swift */; };
 		C8839EF41C094B300092F4A1 /* CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8839EF31C094B300092F4A1 /* CALayer.swift */; };
 		C8839EF51C094B300092F4A1 /* CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8839EF31C094B300092F4A1 /* CALayer.swift */; };
+		C88835EA1C46C6790081A48F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C88835E91C46C6790081A48F /* Info.plist */; };
+		C88835F41C46C7CF0081A48F /* AppProxyProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88835F31C46C7CF0081A48F /* AppProxyProvider.swift */; };
+		C88835F81C46C7CF0081A48F /* ProxyProvider.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C88835EF1C46C7CE0081A48F /* ProxyProvider.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C8A217611C0AF22D0096459C /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A217601C0AF22D0096459C /* UIButton.swift */; };
 		C8A217631C0AF3E20096459C /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A217621C0AF3E20096459C /* UITextField.swift */; };
 		C8A217651C0AF71D0096459C /* SwiftNotice.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A217641C0AF71D0096459C /* SwiftNotice.swift */; };
@@ -31,6 +34,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		C88835F61C46C7CF0081A48F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8F43B631C04B08A006C62BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C88835EE1C46C7CE0081A48F;
+			remoteInfo = ProxyProvider;
+		};
 		C8F43B801C04B08A006C62BB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C8F43B631C04B08A006C62BB /* Project object */;
@@ -61,6 +71,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				C88835F81C46C7CF0081A48F /* ProxyProvider.appex in Embed App Extensions */,
 				C8F43BAD1C04B0A5006C62BB /* Today.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
@@ -71,6 +82,11 @@
 /* Begin PBXFileReference section */
 		C87AC34B1C08BB45003842CF /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		C8839EF31C094B300092F4A1 /* CALayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CALayer.swift; sourceTree = "<group>"; };
+		C88835E91C46C6790081A48F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C88835EF1C46C7CE0081A48F /* ProxyProvider.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ProxyProvider.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C88835F21C46C7CF0081A48F /* ProxyProvider.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ProxyProvider.entitlements; sourceTree = "<group>"; };
+		C88835F31C46C7CF0081A48F /* AppProxyProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppProxyProvider.swift; sourceTree = "<group>"; };
+		C88835F51C46C7CF0081A48F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8A217601C0AF22D0096459C /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
 		C8A217621C0AF3E20096459C /* UITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
 		C8A217641C0AF71D0096459C /* SwiftNotice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftNotice.swift; path = Dependences/SwiftNotice.swift; sourceTree = "<group>"; };
@@ -91,7 +107,6 @@
 		C8F43BA21C04B0A5006C62BB /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		C8F43BA51C04B0A5006C62BB /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 		C8F43BA81C04B0A5006C62BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
-		C8F43BAA1C04B0A5006C62BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8F43BB21C04B117006C62BB /* Keychain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Keychain.swift; path = Dependences/Keychain.swift; sourceTree = "<group>"; };
 		C8F43BB51C04B2E3006C62BB /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
 		C8F43BB71C04B2E3006C62BB /* Today.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Today.entitlements; sourceTree = "<group>"; };
@@ -99,6 +114,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C88835EC1C46C7CE0081A48F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C8F43B681C04B08A006C62BB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -132,6 +154,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C88835F01C46C7CF0081A48F /* ProxyProvider */ = {
+			isa = PBXGroup;
+			children = (
+				C88835F31C46C7CF0081A48F /* AppProxyProvider.swift */,
+				C88835F51C46C7CF0081A48F /* Info.plist */,
+				C88835F11C46C7CF0081A48F /* Supporting Files */,
+			);
+			path = ProxyProvider;
+			sourceTree = "<group>";
+		};
+		C88835F11C46C7CF0081A48F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C88835F21C46C7CF0081A48F /* ProxyProvider.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		C8A2175C1C0AF16F0096459C /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -153,6 +193,7 @@
 				C8F43B821C04B08A006C62BB /* FireUpYourVPNTests */,
 				C8F43B8D1C04B08A006C62BB /* FireUpYourVPNUITests */,
 				C8F43BA41C04B0A5006C62BB /* Today */,
+				C88835F01C46C7CF0081A48F /* ProxyProvider */,
 				C8F43BA11C04B0A5006C62BB /* Frameworks */,
 				C8F43B6C1C04B08A006C62BB /* Products */,
 			);
@@ -165,6 +206,7 @@
 				C8F43B7F1C04B08A006C62BB /* FireUpYourVPNTests.xctest */,
 				C8F43B8A1C04B08A006C62BB /* FireUpYourVPNUITests.xctest */,
 				C8F43BA01C04B0A5006C62BB /* Today.appex */,
+				C88835EF1C46C7CE0081A48F /* ProxyProvider.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -216,7 +258,7 @@
 				C8F43BB71C04B2E3006C62BB /* Today.entitlements */,
 				C8F43BA51C04B0A5006C62BB /* TodayViewController.swift */,
 				C8F43BA71C04B0A5006C62BB /* MainInterface.storyboard */,
-				C8F43BAA1C04B0A5006C62BB /* Info.plist */,
+				C88835E91C46C6790081A48F /* Info.plist */,
 			);
 			path = Today;
 			sourceTree = "<group>";
@@ -224,6 +266,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		C88835EE1C46C7CE0081A48F /* ProxyProvider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C88835F91C46C7CF0081A48F /* Build configuration list for PBXNativeTarget "ProxyProvider" */;
+			buildPhases = (
+				C88835EB1C46C7CE0081A48F /* Sources */,
+				C88835EC1C46C7CE0081A48F /* Frameworks */,
+				C88835ED1C46C7CE0081A48F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProxyProvider;
+			productName = ProxyProvider;
+			productReference = C88835EF1C46C7CE0081A48F /* ProxyProvider.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		C8F43B6A1C04B08A006C62BB /* FireUpYourVPN */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C8F43B931C04B08A006C62BB /* Build configuration list for PBXNativeTarget "FireUpYourVPN" */;
@@ -237,6 +296,7 @@
 			);
 			dependencies = (
 				C8F43BAC1C04B0A5006C62BB /* PBXTargetDependency */,
+				C88835F71C46C7CF0081A48F /* PBXTargetDependency */,
 			);
 			name = FireUpYourVPN;
 			productName = FireUpYourVPN;
@@ -302,10 +362,14 @@
 		C8F43B631C04B08A006C62BB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0710;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = JohnLui;
 				TargetAttributes = {
+					C88835EE1C46C7CE0081A48F = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = B7PY5JUP9A;
+					};
 					C8F43B6A1C04B08A006C62BB = {
 						CreatedOnToolsVersion = 7.1.1;
 						DevelopmentTeam = B7PY5JUP9A;
@@ -354,11 +418,19 @@
 				C8F43B7E1C04B08A006C62BB /* FireUpYourVPNTests */,
 				C8F43B891C04B08A006C62BB /* FireUpYourVPNUITests */,
 				C8F43B9F1C04B0A5006C62BB /* Today */,
+				C88835EE1C46C7CE0081A48F /* ProxyProvider */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		C88835ED1C46C7CE0081A48F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C8F43B691C04B08A006C62BB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -387,6 +459,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C88835EA1C46C6790081A48F /* Info.plist in Resources */,
 				C8F43BA91C04B0A5006C62BB /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -394,6 +467,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		C88835EB1C46C7CE0081A48F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C88835F41C46C7CF0081A48F /* AppProxyProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C8F43B671C04B08A006C62BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -439,6 +520,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		C88835F71C46C7CF0081A48F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C88835EE1C46C7CE0081A48F /* ProxyProvider */;
+			targetProxy = C88835F61C46C7CF0081A48F /* PBXContainerItemProxy */;
+		};
 		C8F43B811C04B08A006C62BB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C8F43B6A1C04B08A006C62BB /* FireUpYourVPN */;
@@ -484,6 +570,38 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		C88835FA1C46C7CF0081A48F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ProxyProvider/ProxyProvider.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ProxyProvider/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lvwenhan.vpn.ProxyProvider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C88835FB1C46C7CF0081A48F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ProxyProvider/ProxyProvider.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ProxyProvider/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lvwenhan.vpn.ProxyProvider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		C8F43B911C04B08A006C62BB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -682,6 +800,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C88835F91C46C7CF0081A48F /* Build configuration list for PBXNativeTarget "ProxyProvider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C88835FA1C46C7CF0081A48F /* Debug */,
+				C88835FB1C46C7CF0081A48F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		C8F43B661C04B08A006C62BB /* Build configuration list for PBXProject "FireUpYourVPN" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
